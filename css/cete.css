@@ -1,0 +1,1265 @@
+/* hoja de estilos principales del cete */
+
+
+#contenido-cete {
+    margin: 60px 0 0 0;
+    padding: 0;
+    max-width: 1200px;
+    position: relative;
+    background-color: #fff;
+    font-size: 12pt;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+    
+}
+
+.cete-headimg {
+    padding: 3%;
+    text-align: right;
+}
+
+/*submenu*/
+#contenido-cete .cete-submenu ol {
+    margin: 0;
+    padding-left: 7%;
+    color: #999;
+}
+.cete-submenu {
+    background-color: #F5F4F4;
+    padding: 5% 0;
+}
+
+/*estilos de contenido*/
+.cete-contenidocols {
+    background-color: #fff;
+}
+.cete-contenidocols div {
+    float: left;
+}
+.col-texto {
+    width: 760px;
+    max-width: 760px;
+    background-color: #fff;
+}
+.col-texto p, .col-texto h1, .col-texto h2, .col-texto h3  {
+    padding: 0 4%;
+}
+.col-imagenes {
+    width: 440px;
+    max-width: 440px;
+    background-color: #fff;
+}
+.col-imagenes img {
+    padding-left: 4%;
+}
+
+#cete-diplocam {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.cete-headerdoble {
+    background-color: #fff;
+}
+
+#menu-cam {
+    text-align: left;
+    margin: auto;
+    height: 350px;
+    width: 1200px;
+    padding: 12px 0px 10px 0px;
+    background-color: #F5F4F4;
+}
+
+
+.cam-imagen1 {
+    padding: 60px 0px 60px 0px;
+}
+
+.cam-imagen2 {
+    padding: 900px 0px 0px 0px;
+}
+
+.cam-imagen3 {
+    padding: 700px 0px 0px 0px;
+}
+
+.cam-imagen4 {
+    padding: 600px 0px 0px 0px;
+}
+
+#footer {
+    color: #fff;
+    background-color: #858585;
+    height: 130px;
+    padding: 12px;
+    font-size: 9pt;
+    font-weight: normal;
+
+}
+
+#footer a, footer a:hover, footer a:link, footer a:visited {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#footer p {
+    margin: 0;
+    padding: 4px;
+}
+
+.p2 {
+    color: #fff;
+    font-size: 12pt;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+    margin: 0 0 1em 0;
+}
+
+/* estilos diplomado camarografo */
+#cete-diplomados.diplo-cam.col-texto {
+    color: #336699 !important;
+}
+#cete-diplocam h1 {
+    color: #45a94a !important;
+    font-size: 15pt;
+    font-family: "soberana_sansbold", Arial, Helvetica, Sans-Serif;
+    padding: 1px;
+    margin: 0 0 1em 0;
+}
+#cete-diplocam h2 {
+    color: #45a94a !important;
+    font-size: 20pt;
+    font-family: "soberana_sansregular", Arial, Helvetica, Sans-Serif;
+    margin: 0 0 1em 0;
+}
+#cete-diplocam h3 {
+    color: #58585a !important;
+    font-size: 11pt;
+    font-family: "soberana_sansregular", Arial, Helvetica;
+    margin: 0 0 0.3em 0;
+}
+#cete-diplocam p {
+    color: #58585a;
+    font-size: 15pt;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+    margin: 0 0 1em 0;
+}
+
+#contenido-cete h2 {
+    color: #45a94a !important;
+    font-size: 20pt;
+    font-family: "soberana_sansregular", Arial, Helvetica, Sans-Serif;
+    margin: 0 0 1em 0;
+}
+
+#contenido-cete h3 {
+    color: #58585a !important;
+    font-size: 15pt;
+    font-family: "soberana_sansbold", Arial, Helvetica, Sans-Serif;
+    margin: 0 0 1em 0;
+}
+
+#contenido-cete p {
+    color: #999;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+    margin: 0 0 1em 0;
+}
+
+
+/* estilos diplo guionista */
+#cete-diploguion h1 {
+    color: #336699 !important;
+    font-size: 15pt;
+}
+#cete-diploguion h2 {
+    color: #aabbcc !important;
+    font-size: 13pt;
+}
+#cete-diploguion h3 {
+    color: #ccc !important;
+    font-size: 11pt;
+}
+#cete-diploguion p {
+    color: #888;
+}
+.guion-imagen1 {
+    padding: 10px 0 100px 0;
+}
+.guion-imagen2 {
+    padding: 8% 0%;
+}
+
+.cete-masinfo  {
+    color: #58585a;
+    padding: 0 4%;
+    text-align: center;
+}
+.cete-masinfo p {
+    font-size: 10pt;
+    margin: 0 !important;
+    padding: 0 4% 2% 4% !important;
+}
+
+/* CANALES CETE ==== */
+
+/* SERVICIOS CETE */
+#canales-cete {
+    height: 550px;
+    margin: 0;
+    position: relative;
+    display: block;
+    background-color: #fff;
+}
+
+.canales-inner-cete {
+    width: 880px;
+    height: 550px;
+    position: relative;
+}
+
+.canales-col-lg {
+    position: relative;
+    float: left;
+    width: 49%;
+    height: 330px;
+}
+.canal-md-cete {
+    height: 100px;
+}
+.canal.insc{background: #e64e13 url(../images/c_ts.svg) no-repeat top center;  }
+.canal.bole{background: #6a1f7f url(../images/c_tb.svg) no-repeat center center;  }
+.canal.doce{background: #00742e url(../images/c_docencia.svg) no-repeat center center; }
+.canal.cal{background: #305a6c url(../images/c_tmx.svg) no-repeat center center;  }
+.canal.info{background: fuchsia url(../images/c_esp.svg) no-repeat center center;  }
+.canal.pod{background: #c30e2e url(../images/c_tvuni.svg) no-repeat center center;  }
+.canal.dip{background: #97961d url(../images/c_apr.svg) no-repeat top center;  }
+.canal.con{background: #6a1f7f url(../images/c_ing.svg) no-repeat top center;  }
+.canal.tele{background: #d4001a url(../images/c_ts.svg) no-repeat top center;  }
+.canal.uni-cete{background: #95961d url(../images/c_tvuni.svg) no-repeat center center;  }
+.canal.nov{background: #e64d12 url(../images/c_tvuni.svg) no-repeat center center;  }
+.canal.tall-uni{background: #2a5a6d url(../images/c_tvuni.svg) no-repeat center center;  }
+.canal.vir{background: #95961d url(../images/c_tvuni.svg) no-repeat center center;  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FIN SERVICIOS CETE */
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/04/2015, 03:46:56 PM
+    Author     : SMARTINEZ
+*/
+/**{
+    margin: 0 auto;
+    padding: 0;
+    border: dashed #e23f82;
+}*/
+a:link    {color:#000; background-color:transparent; text-decoration:none}
+a:visited {color:#999; background-color:transparent; text-decoration:none}
+a:hover   {color:#000; background-color:transparent; text-decoration:none}
+a:active  {color:#999; background-color:transparent; text-decoration:underline}
+
+#distancia-imagen1{
+    width: 200px;
+    height: 150px;
+    margin-top: 3%;
+    position: absolute;
+}
+
+#distancia-imagen2{
+    width: 250px;
+    height: 200px;
+}
+#distancia-imagen3{
+    height: 400px;
+    width: 200px;
+    margin-top: -50%;
+}
+#distancia-imagen4{  
+    width: 200px;
+    height: 200px;
+}
+#linea {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: grey;
+    border-style: solid none;
+    border-width: 2px 0;
+    margin: 18px 0;
+}
+.azul{
+    /*    color: #336699;*/
+    color: #305868;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+    text-align: justify;
+}
+p{
+    text-align: justify;
+}
+.gris{
+    background: #F1F1F1;
+    /*    padding: 0 0 0 0px;*/
+}
+.gris2{
+    color:#E7E7E7;
+}
+.rojo {
+    /*    color: #DF0101;*/
+    color: #DA4A4E;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+}
+.vinoTitulos{
+    color: #8F393C;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+    /*color: #DF0101;*/
+}
+#presencial-imagen1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 3%;
+}
+
+#presencial-imagen2{
+    width: 200px;
+    height: 200px;
+    margin-top: -3%;
+}
+#presencial-imagen3{
+    height: 400px;
+    width: 200px;
+    margin-top: -30%;
+}
+#presencial-imagen4{  
+    width: 200px;
+    height: 200px;
+    margin-top: 20%;
+}
+
+#diplomadosHome-imagen2{
+    width: 250px;
+    height: 350px;
+    margin-top: -18%;
+}
+.verdeDiplomadosHome{
+    color: #90B325;
+}
+#infografia-imagen1{
+    width: 255px;
+    height: 200px;  
+    margin-top: -8%;
+}
+#infografia-imagen2{
+    width: 1000px;
+    margin: auto;
+}
+#taller-imagen1{
+
+}
+#taller-imagen2{
+    width: 205px;
+    height: 200px; 
+}
+#taller-imagen3{
+    width: 220px;
+    height: 350px;
+    /*    margin-top: -150px;*/
+}
+.azul-marino{
+    color:#20234f;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+}
+.alinea-taller{
+    margin-left: 2%;
+}
+.azul-turquesa{
+    color:#37A8DB;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+}
+#recorridos-imagen1{
+    width: 355px;
+    height: 250px; 
+    margin-left: -35%;
+}
+.cafe-control{
+    color:#786754;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+}
+#control-imagen2{
+    width: 300px;
+    height: 320px;
+    margin-top: -10%;
+}
+#control-imagen1{
+    width: 135px;
+    height: 150px;    
+    margin-left: 10%;
+}
+.marron{
+    color:#F29400;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+}
+#solicitud-imagen1{
+    width: 550px;
+    height: 300px; 
+    margin-top: -20%;
+    margin-left: -60%;
+    position: absolute
+}
+#solicitud-imagen2{
+    width: 200px;
+    height: 150px;
+    margin-left: -30%;
+    position: absolute;
+}
+.color-conductor{
+    color:#A18562;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+}
+.cete-heading{
+    margin-top: 10%;
+    text-align: center;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+}
+.color-productor{
+    color: #008a34;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+}
+.color-negro{
+    color:#333;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+}
+.color-editor{
+    color: #371451;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+}
+.color-ingenieria{
+    font-family: "soberana_sanslight", Arial, Helvetica;
+    color: #003882;
+}
+.ing-imagen1{
+    width: 135px;
+    height: 150px;  
+    margin-top: 10%;
+}
+.ing-imagen2{
+    width: 135px;
+    height: 150px;  
+    margin-top: 20%;
+}
+.ing-imagen3{
+    width: 135px;
+    height: 150px;  
+    margin-top: 65%;
+}
+.ing-imagen4{
+    width: 135px;
+    height: 150px;  
+    margin-top: 75%;
+}
+.ing-imagenHeader{
+    width: 100%;
+    height: 200px;
+}
+.color-iluminador{
+    color: #f4a11b;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+}
+#iluminador-imagen1{
+    /*    width: 205px;
+        height: 150px; */
+    margin-top: 10%;
+}
+#iluminador-imagen2{
+    /*    width: 135px;
+        height: 150px; */
+    margin-top: 20%;
+}
+#iluminador-imagen3{
+    /*    width: 135px;
+        height: 150px; */
+    margin-top: 30%;
+}
+#iluminador-imagen4{
+    /*    width: 135px;
+        height: 150px; */
+    margin-top: 50%;
+}
+.color-elaborador{
+    color: #e23f82;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+}
+.color-audiovisual{
+    color: #ab6a17;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+}
+.linea-novedades{
+    background-color: #e65017; 
+    height: 20px; 
+    width: 100%; 
+    margin: inherit; 
+}
+.linea-novedades1{
+    background-color: #e65017; 
+    height: 20px; 
+    width: 316px; 
+    margin: inherit; 
+}
+
+#novedades-imagen1{
+    width: 315px;
+    height: 200px;
+}
+
+#header-podcast{
+    height: 350px;
+}
+#imagenpiepodcast{
+    padding-top: 5%;
+    height: 50%;
+    width: 50%;
+}
+#imagenpodcast{
+    width: 98%;
+}
+#div-botones1{
+    padding-top:  4%;
+    height: 400px;
+}
+#div-botones2{
+    padding-top:  5%;
+    height: 350px;
+}
+#stream-player{
+    margin-left: 23%;
+}
+#video-nosotros{
+    width: 550px;
+    height: 450px;
+}
+
+#SistemaIframe{
+    width: 100%;
+    height: 700px;
+}
+
+.novedades-opacidad
+{
+    background-color: #000;
+    height: 20%;
+    width:50%;
+    opacity:0.6;
+    border-radius: 5px;
+    margin-top: 34%;
+    margin-left: 3%;
+    position: absolute;
+}
+.novedades-opacidad p {
+    font-size: 10pt;
+    font-family: "soberana_sansbold", Arial, Helvetica, Sans-Serif;
+    color: #FFF;
+    font-weight: bold;
+    padding: 2% 2% 2% 2%;
+}
+.canal12-color{
+    color:#00742E;
+}
+.calendario-color{
+    color:#95961D;
+}
+.meses-calendario{
+    font-size: 20px;
+    color:#00742E;
+    
+}
+#div-mes{
+    height:100%;
+    padding: 5% 5% 5% 12%;
+    background: #F1F1F1;
+}
+#div-textomeses{
+    background: #f7f7f7;
+}
+.list-group.panel > .list-group-item {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px
+}
+.list-group-submenu {
+  margin-left:20px;
+}
+
+#imagen-home{
+    width: 100%;
+    height: 400px;
+}
+
+#color-mes12{
+    /*background:#00742E;*/
+    background:#4B894B;
+}
+#color-mes22{
+   background: #C4C459; 
+}
+
+#podcast-imagen1{
+    width: 280px;
+    height: 280px;
+    /*margin-left: -30%;*/
+    position: absolute;
+}
+#podcast-imagen2{
+    width: 200px;
+    height: 200px;
+    margin-left: 22%;
+}
+.titpotcast{
+    margin-left: 80%;
+}
+.verdeClaro{
+    color: #95BE0F;
+}
+#bloque-botones, #bloque-objetivo, #bloque-mision, #bloque-vision{
+   height:  300px;
+}
+
+#div-botones{
+    padding-top:  4%;
+    height: 350px;
+}
+
+/*Codigo Luis Sassón*/ 
+
+#ninos-imagen2{
+    width: 250px;
+    height: 300px;
+    margin-top: -30%;
+}
+#ninos-imagen3{
+    width: 200px;
+    height: 250px;
+    margin-top: -10%;
+}
+
+#ninos-imagen4{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+#ninos-div{
+    background: #37A8DB;
+    height: 450px;
+    width: 5px;
+    /*    border: 1px solid #37A8DB;*/
+}
+#ninos-div-hor{
+    background: #37A8DB;
+    height: 5px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#ninos-imagen1{
+    width: 90%;
+    height: 300px;
+    background: #F4F4F4;
+}
+
+
+/*#####################
+Additional Styles (required)
+######################*/
+.carousel-indicators {
+    bottom:15px;
+    left:10px;
+    width:auto;
+    margin-left:0;
+}
+.carousel-indicators li {
+    border-radius:0;
+    width:8px;
+    height:8px;
+    background:#fff;
+}
+.carousel-indicators .active {
+    width:10px;
+    height:10px;
+    background:#3276b1;
+    border-color:#3276b1;
+}
+
+#nosotros-imagen1{
+    width: 220px;
+    height: 300px;
+    margin-top: -5%;
+}
+#nosotros-imagen2{
+    width: 220px;
+    height: 300px;
+    margin-top: 10%;
+}
+#nosotros-imagen3{
+    width: 200px;
+    height: 280px;
+    margin: -25px;
+}
+#ninos-fondo-video{
+    background: url(../images/cete/nosotros/video-nosotros.png) no-repeat center;
+    width: 100%;
+    height: 500px;    
+}
+
+.col-imagenes {
+    width: 440px;
+    max-width: 440px;
+    background-color: #fff;
+}
+#video-nostros-formato{
+   width: 500px;
+   height: 400px;
+   margin-left: 30%;
+  
+}
+
+.formato-slider{
+    margin-top: -3%;
+}
+
+#ninos-flash-exe1{
+    width: 800px;
+    height: 600px;
+    /*margin-left: 15%;*/
+    
+}
+/*.ui-mobile [data-role=page], .ui-mobile [data-role=dialog], .ui-page{    
+    top:auto !important;
+}*/
+
+.flash-format{
+    margin-left: 30%;
+    border: black;
+}
+#imagen-flash{
+   border: black;
+}
+
+#div-flash{
+    height: 250px;
+}
+
+.ventana-flash{
+/*    width: 1000px;
+    height: 800px;*/
+    width: 75%;
+    height: 800px;
+    padding-top: 70px;
+    margin-left: 13%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*oscar*/
+/*
+#centrada { 
+        margin: 0px auto;
+        max-width: 1200px;
+        background-color: #fff;
+        
+}
+
+#header-novedades {
+        max-width: 1200px;
+        background-color: #fff;
+        height: 230px;
+        text-align: right;
+        padding: 30px 40px 10px 10px;
+}
+
+#titulo h {
+        color: #e65017; 
+    font-size: 15pt;
+    font-family: "soberana_sansbold", Arial, Helvetica, Sans-Serif;
+        padding: 0 0px 0 50px;
+}
+
+#historico {
+        max-width: 1200px;
+        height: 310px;
+        background-color: #fff;
+        padding: 30px 0 0 30px;
+}
+
+#historico h {
+        color: #e65017; 
+    font-size: 15pt;
+    font-family: "soberana_sansbold", Arial, Helvetica, Sans-Serif;
+        padding: 0 0px 0 30px;
+}
+
+#nota {
+        width: 700px;
+        padding: 15px 0 0 0;
+        
+}
+
+#contenido {
+        background-color: #CCC;
+        max-width: 1200px;
+        height: 500px;
+}
+
+#columna1 { 
+float: left; 
+max-width: 500px;
+width: 45%; 
+padding: 30px 0px 0 30px; 
+} 
+
+#columna2 { 
+float: right;
+max-width: 500px;
+width: 45%;  
+padding: 30px 30px 0 0;
+} 
+
+div.background
+{
+  background: url(../images/cete/novedades/banner-novedades.png) no-repeat;
+  max-width:1200px;
+  height: 448px;
+}
+div.transbox
+{
+  background-color: #000;
+  max-width:1200px;
+  height: 190px;
+  width:500px;
+  opacity:0.6;
+  filter:alpha(opacity=60);  For IE8 and earlier 
+   border-radius: 15px;
+}
+div.transbox p {
+        margin: 3%;
+  font-size: 10pt;
+  font-family: "soberana_sansbold", Arial, Helvetica, Sans-Serif;
+  color: #fff;
+}
+
+p {
+    color: #58585a; 
+    font-size: 10pt;
+    font-family: "soberana_sansbold", Arial, Helvetica, Sans-Serif;
+    padding: 1px;
+    margin: 0 0 1em 0;
+}
+
+p1 {
+    color: #e65017; 
+    font-size: 10pt;
+    font-family: "soberana_sansbold", Arial, Helvetica, Sans-Serif;
+    padding: 1px;
+    margin: 0 0 1em 0;
+}
+
+h {
+        color: #e65017; 
+    font-size: 10pt;
+    font-family: "soberana_sansbold", Arial, Helvetica, Sans-Serif;
+        padding: 30px 0px 0 30px;
+}
+
+li {
+        color: #58585a; 
+    font-size: 10pt;
+    font-family: "soberana_sansbold", Arial, Helvetica, Sans-Serif;
+    padding: 1px;
+    margin: 0 0 1em 0;
+}
+
+ul {
+        list-style-image: url(../images/cete/novedades/vineta.png);
+}*/
+/* estilos diplomado camarografo */
+#cete-diplomados.diplo-cam.col-texto {
+    color: #336699;
+}
+h1 {
+    color: #45a94a; 
+    font-size: 15pt;
+    font-family: "soberana_sansbold", Arial, Helvetica, Sans-Serif;
+    padding: 1px;
+    margin: 0 0 1em 0;
+}
+h2 {
+
+    font-size: 20pt;
+    font-family: "soberana_sansregular", Arial, Helvetica, Sans-Serif;
+    margin: 0 0 1em 0;
+}
+h3 {
+    color: #58585a; //!important;
+    font-size: 12pt;
+    font-family: "soberana_sansregular", Arial, Helvetica;
+    margin: 0 0 0.3em 0;
+}
+#cete-diplocam p {
+    color: #58585a;
+    font-size: 15pt;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+    margin: 0 0 1em 0;
+}
+
+
+.modalidad {
+    color: #58585a; //!important;
+    font-size: 18pt;
+    font-family: "soberana_sansbold", Arial, Helvetica, Sans-Serif;
+    margin: 0 0 1em 0;
+    font-weight: bold;
+}
+
+#contenido-cete p {
+    color: #999;
+    font-family: "soberana_sanslight", Arial, Helvetica;
+    margin: 0 0 1em 0;
+}
+
+.imagen1 {
+    padding: 60px 0px 60px 0px;
+}
+
+.imagen2 {
+    padding: 900px 0px 0px 0px;
+}
+
+.imagen3 {
+    padding: 700px 0px 0px 0px;
+}
+
+.imagen4 {
+    padding: 600px 0px 0px 0px;
+}
+
+/*guionista imagenes*/
+
+.guionista-imagen1 {
+    padding: 60px 0px 60px 0px;
+}
+
+.guionista-imagen2 {
+    padding: 450px 0px 0px 0px;
+}
+
+.guionista-imagen3 {
+    padding: 500px 0px 0px 0px;
+}
+
+.guionista-imagen4 {
+    padding: 500px 0px 0px 0px;
+}
+
+/* color*/
+.color_ing {
+    color: #223e7e;
+}
+
+.color_con {
+    color: #a18562;
+}
+
+.color_ed {
+    color: #371451;
+}
+
+.color_ela {
+    color: #e23f82;
+}
+
+.color_guio {
+    color: #e32528;
+}
+
+.color_ilu {
+    color: #f4a11b;
+}
+
+.color_prod {
+    color: #008a34;
+}
+
+.color_doc {
+    color: #ab6a17;
+}
+
+.color_cam {
+    color: #45a94a;
+}
+
+
+#centrada { 
+    margin: 0px auto;
+    width: 1200px;
+    background-color: #f4f4f4;
+    height: 100%;
+}
+
+#centrada2 { 
+    margin: 0px auto;
+    width: 1200px;
+    background-color: #FFF;
+    height: 100%;
+}
+
+#centrada3 { 
+    margin: 0px auto;
+    width: 1200px;
+    background-color: #858585;
+    height: 120px;
+    color: #0FF;
+}
+
+#centrada3 p { 
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 10px;
+    padding: 4px 0 4px 0;
+}
+/*
+#footer  {
+    color: #fff;
+    background-color: #858585;
+    height: 130px;
+    padding: 10px 10px 10px 10px;
+    font-size: 9pt;
+    font-weight: normal;
+        display: block;
+
+}
+
+#footer a {
+    color: #fff;
+    font-size: 9pt;
+    font-weight: normal;
+        
+
+}*/
+
+
+
+/*h {
+        color: #8fb41c; !important;
+        font-size: 14pt;
+        font-family: "soberana_sansregular", Arial, Helvetica, Sans-Serif;
+        margin: 0 0 1em 0;
+}
+*/
+
+
+/*p {
+        color: #58585a; !important;
+        font-size: 12pt;
+        font-family: "soberana_sansregular", Arial, Helvetica, Sans-Serif;
+        margin: 0 0 1em 0;
+}
+
+
+p1 {
+        color: #fff; !important;
+        font-size: 9pt;
+        font-family: "soberana_sansregular", Arial, Helvetica, Sans-Serif;
+        margin: 0 0 0 0;
+}
+
+p2 {
+        color: #58585a; !important;
+        font-size: 10pt;
+        font-family: "soberana_sansregular", Arial, Helvetica, Sans-Serif;
+        margin: 0 0 1em 0;
+}
+
+p3 {
+        color: #fff;
+        font-size: 12pt;
+        font-family: "soberana_sansregular", Arial, Helvetica;
+        margin: 0 0 1em 0;
+}*/
+
+
+#columna1  {
+    font-size: 10pt;
+    text-align: justify;
+    color: #58585a;
+    width:750px;
+    height:300px;
+    float:left;
+    padding: 30px 30px 0 0;
+
+}
+
+#general {
+    position: absolute;
+
+}
+
+#columna2 {
+    float: right;
+    width: 394px;
+    height: 485px;
+    margin-top: -100px;
+}
+
+#imagen_header {
+    width: 394px;
+    height: 550px;
+}
+
+
+#header-diplomados {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 0px 0 0px 0px;
+    float: left;
+    width: auto;
+    height: auto;
+}
+/*
+#iconos-footer {
+        padding: 10px 0 10px 0;
+        margin: 30px 0 30px 0;
+}*/
+
+/*taller */
+
+
+/*#centrada { 
+        margin: 0px auto;
+        max-width: 1200px;
+        background-color: #fff;
+        height: 100%;
+}*/
+
+#imagen-header { 
+    max-width: 1200px;
+    background-color: #F5F4F4;
+    height: 300px;
+}
+
+#texto-header {
+    margin: 15px;
+}
+
+#caracteristicas {
+    margin: 15px;
+    text-align: justify;
+}
+
+#descripcion {
+    margin: 15px;
+    text-align: justify;
+}
+
+#requisitos {
+    margin: 15px;
+    text-align: justify;
+}
+
+#lineamientos {
+    margin: 15px;
+    text-align: justify;
+}
+
+
+/*h {
+    color: #212350; 
+    font-size: 15pt;
+    font-family: "soberana_sansbold", Arial, Helvetica, Sans-Serif;
+    padding: 1px;
+    margin: 0 0 1em 0;
+}
+
+p {
+    color: #58585a; 
+    font-size: 10pt;
+    font-family: "soberana_sansbold", Arial, Helvetica, Sans-Serif;
+    padding: 1px;
+    margin: 0 0 1em 0;
+}
+
+li {
+        color: #58585a; 
+    font-size: 10pt;
+    font-family: "soberana_sansbold", Arial, Helvetica, Sans-Serif;
+        text-align: justify;
+}
+
+ol {
+        color: #58585a; 
+    font-size: 10pt;
+    font-family: "soberana_sansbold", Arial, Helvetica, Sans-Serif;
+}*/
+
+.col-imagenes {
+    width: 440px;
+    max-width: 440px;
+    background-color: #fff;
+}
+
+
+/* 
+    Created on : 13/04/2015, 03:46:56 PM
+    Author     : LIZ
+*/
+
+#regresar{
+    
+   position: absolute;
+   right: 80px;
+   top: -40px;
+   width: 130px;
+   height: 60px;
+   
+/*    width: 80px;
+    height:70px;
+    top:810px;*/
+}
+#regresar1{
+   position: absolute;
+   right: 80px;
+   top: 10px;
+   width: 130px;
+   height: 60px;
+}

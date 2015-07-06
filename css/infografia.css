@@ -1,0 +1,46 @@
+body {
+	margin: 0 auto;
+}
+
+#centrada { 
+	margin: 0px auto;
+	max-width: 1200px;
+	background-color: #fff;
+	height: 300px;
+}
+
+#infografia { 
+	max-width: 1200px;
+	padding: 100px 0 20px 20px;
+}
+
+#cuerpo { 
+	max-width: 1200px;
+	margin-top: 100px;
+	padding-top: 30px; 
+	
+}
+
+
+#cifras { 
+	max-width: 1200px;
+	padding-top: 10px; 
+	
+}
+
+p {
+	color: #58585a; 
+    font-size: 12pt;
+    font-family: "soberana_sans", Arial, Helvetica, Sans-Serif;
+    padding: 1px;
+    margin: 0 0 1em 0;
+}
+
+
+h {
+	color: #d40050; 
+    font-size: 15pt;
+    font-family: "soberana_sans", Arial, Helvetica, Sans-Serif;
+    padding: 1px;
+    margin: 0 0 1em 0;
+}

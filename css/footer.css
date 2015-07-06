@@ -1,0 +1,26 @@
+/*#####################
+Additional Styles (required)
+######################*/
+.carousel-indicators {
+	bottom:15px;
+	left:10px;
+	width:auto;
+	margin-left:0;
+}
+.carousel-indicators li {
+	border-radius:0;
+	width:8px;
+	height:8px;
+	background:#fff;
+}
+.carousel-indicators .active {
+	width:10px;
+	height:10px;
+	background:#3276b1;
+	border-color:#3276b1;
+}
+
+#myCarousel{
+    width: 500px;
+    text-align: center;
+}

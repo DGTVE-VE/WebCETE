@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/04/2015, 11:30:31 AM
+    Author     : SMARTINEZ
+*/
+
+*{
+    margin: 0 auto;
+/*    border:  dashed #D32323;*/
+    float: none; 
+}
+.textoDirectorio1 {
+    color:#D32323;
+    font-weight: bold;
+    font-family:  Verdana, Sans-Serif;
+    font-size: 25px;
+}
+.textoDirectorio2 {
+    color:#D32323;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:   Verdana, Sans-Serif;
+}
+.textoDirectorio3 {
+    color:#BEBDBD;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:   Verdana, Sans-Serif;
+}
+.textoDirectorio4 {
+    color:#D32323;
+    font-weight: bold;
+    font-family:  Verdana, Sans-Serif;
+    font-size: 15px;
+}
+.cuadrosDirectorio1{
+    background: #EAEAEA;
+    border: 2px solid white;
+/*    height: 250px;*/
+}
+.cuadrosDirectorio{
+    border:12px solid #EAEAEA;
+    font-family: Verdana, Sans-Serif;
+    font-size: 12px;
+}
+
+.colorDictorioBtn{
+    color:#EAEAEA;
+}
+
+.circular {
+        background: #BEBDBD;
+        width: 28px;
+        border-radius: 50px;
+        text-align: center;
+}
